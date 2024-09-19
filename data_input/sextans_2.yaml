@@ -1,0 +1,43 @@
+key: sextans_2
+table: dwarf_mw
+location:
+  ra: 156.437
+  dec: -0.631
+name_discovery:
+  confirmed_dwarf: 0
+  confirmed_real: 1
+  false_positive: 0
+  discovery_year: 2023
+  host: mw
+  name: Sextans II
+  ref_discovery:
+  - Homma2024PASJ...76..733H
+  - Gatto2024A&A...681L..13G
+  other_name:
+  - KiDS-UFD-1
+  abbreviation: SexII
+  # type: dSph/SC
+notes:
+- found in HSC and KiDS survey -> confirmed_real = 1
+structure:
+  rhalf: 4.2
+  rhalf_em: 0.5
+  rhalf_ep: 0.5
+  ellipticity: 0.43
+  ellipticity_em: 0.08
+  ellipticity_ep: 0.07
+  position_angle: -17
+  position_angle_em: 9
+  position_angle_ep: 9
+  ref_structure: Homma2024PASJ...76..733H
+distance:
+  distance_modulus: 20.5
+  distance_modulus_em: 0.2
+  distance_modulus_ep: 0.2
+  ref_distance: Homma2024PASJ...76..733H
+m_v:
+  apparent_magnitude_v: 16.59
+  apparent_magnitude_v_em: 0.36
+  apparent_magnitude_v_ep: 0.37
+  mean_ebv: 0.057
+  ref_m_v: Homma2024PASJ...76..733H
