@@ -17,10 +17,10 @@ jobs:
         with:
           python-version: 3.8
       - name: Install Python dependencies
-        run: python -m pip install --upgrade astropy
-        run: python -m pip install --upgrade numpy
-        run: python -m pip install --upgrade yaml
-        run: python -m pip install --upgrade corner
+      - run: python -m pip install --upgrade astropy
+      - run: python -m pip install --upgrade numpy
+      - run: python -m pip install --upgrade yaml
+      - run: python -m pip install --upgrade corner
       - name: Execute Python script
-        run: python code/combine_table_general.py
+      - run: python code/combine_table_general.py
       - run: echo "🍏 This job's status is ${{ job.status }}."
